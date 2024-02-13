@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --fblanco:white;
+    --fazul:blue;
+    --beige:beige;
+    --rosa:#fe12fe;
+    --rojo:red;
+    --tick:'Archivo Black', sans-serif;
+    --roboto:font-family: 'Roboto', sans-serif;
+    --poppins:font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url(../media/ojo-big.png) 2 2,pointer;
+}
+
+body{
+    width: 100%;
+    height: 100dvh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.dientes-hero video{
+    position: fixed;
+    top: 0;
+    left: -90%;
+    height: 100%;
+    z-index: -1;
+}
+
+nav{
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.443);
+    padding: 0.1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-cat a{
+    font-family: var(--tick);
+    color: white;
+    margin-left: 0.2rem;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+ ul li {
+    display: inline;
+    margin: 0.5rem;
+}
+
+.sect-1{
+    width: 70dvw;
+    margin: auto;
+
+}
+h1{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    font-family: var(--tick);
+    color: var(--rojo);
+    text-align: center;
+    font-size: 4rem;
+}
+
+h1:hover {
+    filter: drop-shadow(0rem 0rem 0.5rem red);
+    font-size: 8rem;
+}
+
+.sect-1 p{
+    color: var(--rojo);
+    text-align: center;
+    font-family: var(--roboto);
+    margin-bottom: 4rem;
+}
+
+.sect-1 p:hover{
+    color: blueviolet;
+    font-size: 3rem;
+}
+
+footer{
+    width: 100%;
+    height: 20dvh;
+    background-color:rgb(196, 128, 196);
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+}
+.foot1{
+    margin: 1.4rem;
+    align-self: self-start;
+
+}
+.foot1 h3 a{
+    font-family: var(--tick);
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+.foot2{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    justify-content: center;
+
+}
+.insta-ico{
+    width: 4rem;
+    margin-bottom: 1.5rem;
+    align-self: self-start;
+}
+.foot2 p{
+    margin-left: -1.5rem;
+}

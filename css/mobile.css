@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --fblanco:white;
+    --fazul:blue;
+    --beige:beige;
+    --rosa:#fe12fe;
+    --tick:'Archivo Black', sans-serif;
+    --roboto:font-family: 'Roboto', sans-serif;
+    --poppins:font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:200px) {
+    
+
+header{
+    width: 100%;
+    height: 100dvh;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../media/Wacaraweb1.gif);
+
+    background-size: 100px contain;
+    background-repeat: round repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav{
+    width: 2.5rem;
+    height: 100dvh;
+    background-color: rgba(0, 0, 255, 0.133);
+    padding: 0.1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h1{
+    transform: rotate(-90deg);
+    font-family: var(--tick);
+    color: var(--beige);
+    margin-top: 10rem;
+}
+
+ul{
+    list-style: none;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+}
+
+
+li a{
+    color: var(--beige);
+    list-style: none;
+    margin-left: 1.5rem;
+    text-shadow:var(--fazul);
+}
+li img{
+    transform: rotate(90deg);
+    margin-top: 0.3rem;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sect1{
+    width: 100%;
+    /* height: 90dvh; */
+    background-image: url(../media/arbol-gris.JPG);
+   /*filter: hue-rotate(180deg);*/
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.logo-spoti1 img {
+    margin: 2.5rem;
+    width: 10rem;
+    filter: blur(2px);
+}
+.frame-wac{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 19rem;
+    height: 25rem;
+    filter: drop-shadow(0rem 0rem 1rem #224004);
+}
+.sect2{
+    width: 100%;
+    background-color: rgb(7, 66, 25);
+   position: relative;
+   background-image: url(../media/fondo-rojo.ia.png);
+}
+.head-spot{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(1rem -2rem 0.5rem  #aa27eb);
+}
+
+.head-gif img{
+    width: 20rem;
+    filter: hue-rotate(30deg);
+    filter: drop-shadow(-1rem 2rem 0.5rem  #aa27eb);
+}
+.img1-sect2 img{
+    width: 25rem;
+    margin-top: -6rem;
+    border-radius: 10%;
+}
+.hombre-llamas img{
+    width: 11rem;
+    border-radius: 10%;
+    margin-top: -5rem;
+    z-index: -3;
+    align-self: self-end;
+}
+.sect3{
+    width: 100%;
+    height: 80dvh;
+    position: relative;
+    padding: 0.1px;
+    overflow: hidden;
+}
+/*.logo-sound img{
+    width: 10rem;
+}
+.iframe-sc{
+    width: 15rem;
+    height: 15rem;
+    z-index: 2;
+
+}*/
+.pajaros-wac video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+footer{
+    width: 100%;
+    height: 20dvh;
+    background-color:rgb(196, 128, 196);
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+}
+.foot1{
+    margin: 1.4rem;
+    align-self: self-start;
+
+}
+.foot1 h3 a{
+    font-family: var(--tick);
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+.foot2{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    justify-content: center;
+
+}
+.insta-ico{
+    width: 4rem;
+    margin-bottom: 1.5rem;
+    align-self: self-start;
+}
+.foot2 p{
+    margin-left: -1.5rem;
+}
+
+
+}

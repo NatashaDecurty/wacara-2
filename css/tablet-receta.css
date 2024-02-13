@@ -1,0 +1,7 @@
+.dientes-hero video{
+    position: fixed;
+    top: 0;
+    left: -60%;
+    height: 100%;
+    z-index: -1;
+}

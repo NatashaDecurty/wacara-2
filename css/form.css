@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../media/fondo-rojo-ia2.png);
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.1px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title-cat a{
+    font-family: var(--tick);
+    color: var(--beige);
+    margin-left: 0.2rem;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    margin: 0.5rem;
+    list-style: none;
+}
+li a{
+    margin-top: 0.5rem;
+}
+
+.sect-f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornsilk;
+    margin: 3rem;
+}
+
+form{
+    padding: 2rem;
+   width: 70%;
+   height: 50%;
+   align-self: center;
+}
+
+
+footer{
+    width: 100%;
+    height: 20dvh;
+    background-color:rgb(196, 128, 196);
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+}
+.foot1{
+    margin: 1.5rem;
+    align-self: self-start;
+
+}
+.foot1 h3 a{
+    font-family: var(--tick);
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+.foot2{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    justify-content: center;
+
+}
+.insta-ico{
+    width: 4rem;
+    margin-bottom: 1.5rem;
+    align-self: self-start;
+}
+.foot2 p{
+    margin-left: -1.5rem;
+}

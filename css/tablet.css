@@ -1,0 +1,14 @@
+.sect1{
+    
+    justify-content: space-around;
+}
+.logo-spoti1 img{
+    width: 15rem;
+}
+
+.frame-wac{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    width: 30rem;
+    height: 30rem;
+}

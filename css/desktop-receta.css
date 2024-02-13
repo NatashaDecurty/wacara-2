@@ -1,0 +1,11 @@
+.dientes-hero video{
+    position: fixed;
+    top: 0;
+    left: -20%;
+    width: 100%;
+    z-index: -1;
+}
+
+.insta-ico{
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,3 @@
+@import url('../css/mobile-receta.css');
+@import url('../css/tablet-receta.css') screen and (min-width: 600px);
+@import url('../css/desktop-receta.css') screen and (min-width: 1024px);
