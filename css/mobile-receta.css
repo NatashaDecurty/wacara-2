@@ -104,7 +104,8 @@ footer{
     align-items: self-end;
 }
 .foot1{
-    margin: 1.4rem;
+    margin: 1rem;
+    margin-top: 4rem;
     align-self: self-start;
 
 }
@@ -113,6 +114,8 @@ footer{
     text-decoration: none;
     font-size: 1.3rem;
     color: black;
+    padding: 0.5rem;
+    border: black 1px solid;
 }
 .foot2{
     margin: 1rem;
@@ -122,11 +125,16 @@ footer{
     justify-content: center;
 
 }
+.foot-logos{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .insta-ico{
-    width: 4rem;
-    margin-bottom: 1.5rem;
+    width: 3.5rem;
+    margin-bottom: 0.5rem;
     align-self: self-start;
+    padding: 0.2rem;
 }
 .foot2 p{
-    margin-left: -1.5rem;
+    margin-left: -1.6rem;
 }
