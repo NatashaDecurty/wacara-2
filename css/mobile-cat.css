@@ -82,19 +82,31 @@ hr{
 }
 
 .container-0 div img:hover{
-    box-shadow: #12fe39 0rem 0px 6rem 2.5rem;
+    box-shadow: #fe12fe 0rem 0px 6rem 2.5rem;
+    display: block;
+    content: url(../media/album-back.JPG);
+    transition: all 2.5s ;
+    filter: hue-rotate(90deg);
 }
 .container-1 div img:hover{
     box-shadow: #fed712 0rem 0px 6rem 2.5rem;
+    filter: hue-rotate(90deg);
+    transition: all 2.5s ;
 }
 .container-2 div img:hover{
     box-shadow: #fe7412 0rem 0px 6rem 2.5rem;
+    filter: hue-rotate(90deg);
+    transition: all 2.5s ;
 }
 .container-3 div img:hover{
     box-shadow: #12fe39 0rem 0px 6rem 2.5rem;
+    filter: hue-rotate(90deg);
+    transition: all 2.5s ;
 }
 .container-4 div img:hover{
     box-shadow: #fe1212 0rem 0px 6rem 2.5rem;
+    filter: hue-rotate(90deg);
+    transition: all 2.5s ;
 }
 
 .contain-text{
