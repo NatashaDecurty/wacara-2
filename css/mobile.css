@@ -105,7 +105,7 @@ section{
    position: relative;
    background-image: url(../media/fondo-rojo.ia.png);
 }
-.head-spot{
+/* .head-spot{
     width: 20rem;
     height: 20rem;
     margin-top: 4rem;
@@ -118,35 +118,53 @@ section{
     width: 20rem;
     filter: hue-rotate(30deg);
     filter: drop-shadow(-1rem 2rem 0.5rem  #aa27eb);
-}
+} */
 .img1-sect2 img{
     width: 25rem;
     margin-top: -6rem;
     border-radius: 10%;
 }
-.hombre-llamas img{
+/* .hombre-llamas img{
     width: 11rem;
     border-radius: 10%;
     margin-top: -5rem;
     z-index: -3;
     align-self: self-end;
-}
+} */
 .sect3{
     width: 100%;
-    height: 80dvh;
+
     position: relative;
     padding: 0.1px;
     overflow: hidden;
 }
-.logo-soundc img{
-    width: 3rem;
-}
+
 .pajaros-wac video{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     z-index: -1;
+}
+
+.sect3-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-soundc{
+    width: 11rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.frame-wac-2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 12rem;
+    height: 25rem;
+
 }
 
 footer{
