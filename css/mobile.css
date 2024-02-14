@@ -138,15 +138,9 @@ section{
     padding: 0.1px;
     overflow: hidden;
 }
-/*.logo-sound img{
-    width: 10rem;
+.logo-soundc img{
+    width: 3rem;
 }
-.iframe-sc{
-    width: 15rem;
-    height: 15rem;
-    z-index: 2;
-
-}*/
 .pajaros-wac video{
     position: absolute;
     top: 0;
