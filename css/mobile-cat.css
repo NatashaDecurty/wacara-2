@@ -21,8 +21,10 @@
 }
 
 body{
-    background-color: var(--fazul);
-}
+  
+    background: rgb(0,0,255);
+    background: linear-gradient(153deg, rgba(0,0,255,1) 21%, rgba(196,128,196,1) 98%); 
+} 
 
 nav{
     width: 100%;
