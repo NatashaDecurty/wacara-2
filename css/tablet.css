@@ -6,6 +6,32 @@
     width: 15rem;
 }
 
+.sect2-div{
+    width: 30rem;
+    font-size: 1.7rem;
+    padding: 2rem;
+}
+.hombre-llamas img{
+    width: 20rem;
+}
+.sect2-div1{
+    margin-top: -15rem;
+}
+.flor-globo img{
+    width: 30rem;
+    transform: rotate(18deg);
+}
+.sect2-div2{
+    margin-top: -15rem;
+}
+.sect2 video{
+    width: 60rem;
+}
+.sect2-div3{
+    margin-top: -20rem;
+}
+
+
 .frame-wac{
     margin-top: 3rem;
     margin-bottom: 4rem;

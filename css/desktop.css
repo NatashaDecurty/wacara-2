@@ -10,6 +10,46 @@
     margin-bottom: 8rem;
 }
 
+.sect2-div{
+    width: 50rem;
+    font-size: 2rem;
+    padding: 3rem;
+    border-radius: 11%;
+    margin: 2rem;
+}
+.sect2-div:hover{
+    box-shadow: #fed712 0rem 0px 6rem 2.5rem;
+   
+    transition: all 2.5s ;
+}
+.hombre-llamas img{
+    width: 30rem;
+}
+.sect2-div1{
+    margin-top: -28rem;
+    font-size: 2.5rem;
+}
+.flor-globo img{
+    width: 35rem; 
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+.sect2-div2{
+    margin-top: -23rem;
+}
+.sect2 video{
+    align-self: flex-start;
+}
+.sect2-div3{
+    margin-top: -21rem;
+    font-size: 2.2rem;
+}
+.pajarito img{
+    width: 15rem;
+    margin: 2rem;
+    margin-top: -8rem;
+}
+
 .pajaros-wac video{
    height: 110dvh;
 }

@@ -101,39 +101,78 @@ section{
 }
 .sect2{
     width: 100%;
-    background-color: rgb(7, 66, 25);
-   position: relative;
-   background-image: url(../media/fondo-rojo.ia.png);
-}
-/* .head-spot{
-    width: 20rem;
-    height: 20rem;
-    margin-top: 4rem;
+    background-color: var(--fazul);
+    position: relative;
     display: flex;
-    align-items: center;
-    filter: drop-shadow(1rem -2rem 0.5rem  #aa27eb);
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
 }
 
-.head-gif img{
-    width: 20rem;
-    filter: hue-rotate(30deg);
-    filter: drop-shadow(-1rem 2rem 0.5rem  #aa27eb);
-} */
-.img1-sect2 img{
-    width: 25rem;
-    margin-top: -6rem;
+.sect2 img{
     border-radius: 10%;
 }
-/* .hombre-llamas img{
-    width: 11rem;
+
+.hombre-llamas img{
+    width: 15rem;
+    margin-top: -rem;
+    transform: rotate(-40deg);
+    filter: blur(2px);
+}
+
+.sect2-div{
+    width: 20rem;
+    margin: 1rem;
+    background-color: var(--beige);
     border-radius: 10%;
-    margin-top: -5rem;
-    z-index: -3;
-    align-self: self-end;
-} */
+    font-family: var(--tick);
+    font-size: 1.7rem;
+    align-self: flex-end;
+    display: flex;
+    z-index: 2;
+}
+
+.sect2-div p{
+    margin: 1.5rem;
+}
+.sect2-div1{
+    margin-top: -6rem;
+}
+.flor-globo{
+    align-self: flex-end;
+    margin: 1rem;
+    margin-top: -1rem;
+}
+.flor-globo img{
+    width: 22rem;
+    transform: rotate(15deg);
+}
+.sect2-div2{
+    align-self: flex-start;
+    margin-top: -6rem;
+    font-size: 1.5rem;
+}
+.sect2 video{
+    width: 50rem;
+    border-radius: 50%;
+    align-self: flex-end;
+    transform: rotate(-10deg);
+    margin-top: -6rem;
+}
+.sect2-div3{
+    margin-top: -15rem;
+}
+.pajarito{
+    align-self: flex-end;
+    z-index: 3;
+}
+.pajarito img{
+    margin-top: -4.5rem;
+    width: 10rem;
+}
+
 .sect3{
     width: 100%;
-
     position: relative;
     padding: 0.1px;
     overflow: hidden;
@@ -159,9 +198,12 @@ section{
     margin-bottom: 2rem;
 }
 
+.div-frame{
+    margin-bottom: 2rem;
+}
+
 .frame-wac-2{
     margin-top: 2rem;
-    margin-bottom: 2rem;
     width: 12rem;
     height: 25rem;
 
