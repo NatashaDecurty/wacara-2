@@ -76,6 +76,7 @@ h1{
     color: var(--rojo);
     text-align: center;
     font-size: 4rem;
+    filter: drop-shadow(red 0rem 2px 1rem );
 }
 
 h1:hover {

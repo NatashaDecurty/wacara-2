@@ -101,7 +101,8 @@ section{
 }
 .sect2{
     width: 100%;
-    background-color: var(--fazul);
+    background: rgb(223,17,245);
+    background: linear-gradient(153deg, rgba(223,17,245,1) 12%, rgba(254,254,241,1) 47%, rgba(117,117,117,1) 99%); 
     position: relative;
     display: flex;
     flex-direction: column;
